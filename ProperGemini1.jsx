@@ -5,7 +5,7 @@ import Answer from './Answer';
 
 export default function Gemini() {
     const [quest, setQuest] = useState("");
-    const [qas, setQas] = useState([]); // store question + answer pairs
+    const [qas, setQas] = useState([]);  //for ques n ans
 
     const askQuest = async () => {
         const payload = {
@@ -74,3 +74,4 @@ export default function Gemini() {
         </div>
     );
 }
+
